@@ -1144,7 +1144,7 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 		margin-left: 20px;
 	}
 }
-@media (min-width: 375px){
+@media (max-width: 375px){
 	body{box-sizing: border-box;}
 	.header__content{
 		display: flex;
