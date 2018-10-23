@@ -546,6 +546,7 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 
 /*------------------------ADAPTIVE---------------------------------------------------------------------*/
 @media (max-width: 990px){
+	body{box-sizing: border-box;}
 	.header__content{
 		display: flex;
 		flex-direction: column;
@@ -644,6 +645,7 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 	}
 }
 @media (max-width: 768px){
+	body{box-sizing: border-box;}
 	.header__content{
 		display: flex;
 		flex-direction: column;
@@ -742,6 +744,7 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 	}
 }
 @media (max-width: 667px){
+	body{box-sizing: border-box;}
 	.header__content{
 		display: flex;
 		flex-direction: column;
@@ -851,6 +854,7 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 	}
 }
 @media (max-width: 414px){
+	body{box-sizing: border-box;}
 	.header__content{
 		display: flex;
 		flex-direction: column;
@@ -1024,6 +1028,7 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 	}
 }
 @media (max-width: 375px){
+	body{box-sizing: border-box;}
 	.header__content{
 		display: flex;
 		flex-direction: column;
@@ -1046,7 +1051,7 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 		margin: 3px;
 	}
 	.header__links{
-		height: 65px;
+		height: 70px;
 		background-color: antiquewhite;
 		position: fixed;
 		width: 100%;
@@ -1203,10 +1208,12 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 		margin-left: 20px;
 	}
 }
-@media (min-width: 320px){
+@media (max-width: 320px){
+	body{box-sizing: border-box;}
 	.header__content{
 		display: flex;
 		flex-direction: column;
+
 	}
 	.header__picture{
 		width: 100%;
@@ -1226,10 +1233,10 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 		margin: 3px;
 	}
 	.header__links{
-		height: 85px;
+		height: 70px;
 		background-color: antiquewhite;
 		position: fixed;
-		width: 100%;
+		max-width: 100%;
 		top:0;
 		margin-left: -20px;
 		margin-top:0;
@@ -1244,10 +1251,11 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 		font-size: 30px;
 	}
 	.header__paragr{
-		font-size: 25px;
+		font-size: 15px;
+		margin-left: 2px;
 	}
 	.header__get-started{
-		font-size: 25px;
+		font-size: 15px;
 		margin-top: 0px;
 	}
 	.main__skills__content{
@@ -1304,12 +1312,17 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 	}
 	.education__picture,.experiences__picture{
 		height: 760px;
-		max-width: 50%;
+		max-width: 40%;
 	}
 	.education__inform,.experiences__inform{
 		height: 760px;
 		font-size: 13px;
-		max-width: 50%;
+		width: 60%;
+	}
+	.Education,.Experiences{
+		font-size: 20px;
+		margin-bottom: 0;
+		padding: 0;
 	}
 	.prefooter__content{
 		display: flex;
@@ -1345,7 +1358,7 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 		border-left:  none;
 		width: 97%;
 		margin-bottom: 10px;	
-		height: 130px;
+		height: 50px;
 	}
 	.prefooter__picture{
 		display: none;
