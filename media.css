@@ -11,7 +11,7 @@
 	.header__navigation{
 		width:100%; 
 	}
-	.items{
+	.menu__item{
 		font-size: 2rem;
 	}
 	.header__welcome-message{
@@ -28,7 +28,7 @@
 		font-size: 2.5rem;
 		margin-top: 0px;
 	}
-	.main__skills__content{
+	.main__skills--content{
 		display: flex;
 		flex-wrap: wrap;
 		align-content: flex-start;
@@ -36,8 +36,8 @@
 	.skills__text{
 		width: 100%;
 	}
-	.skills__text--brown,
-	.skills__text--gray,
+	.skills__text--first,
+	.skills__text--second,
 	.skills__text--header{
 		font-size: 2.5rem;
 	}
@@ -54,7 +54,7 @@
 	.progress-name{
 		font-size: 1.7rem;
 	}
-	.main__more__content{
+	.main__more--content{
 		display: flex;
 		flex-wrap: wrap;
 		align-content: flex-start;
@@ -80,7 +80,7 @@
 	.card__text--two,.card__text--one,.card__text--three,.card__text--four{
 	font-size: 1.8rem;
 	}
-	.prefooter__content{
+	.main__prefooter--content{
 		max-width: 100%;
 	}
 	.prefooter__contacts--text{
@@ -110,7 +110,7 @@
 	.header__navigation{
 		width:100%; 
 	}
-	.items{
+	.menu__item{
 		font-size: 1.6rem;
 	}
 	.header__welcome-message{
@@ -127,7 +127,7 @@
 		font-size: 2.5rem;
 		margin-top: 0px;
 	}
-	.main__skills__content{
+	.main__skills--content{
 		display: flex;
 		flex-wrap: wrap;
 		align-content: flex-start;
@@ -135,8 +135,8 @@
 	.skills__text{
 		width: 100%;
 	}
-	.skills__text--brown,
-	.skills__text--gray,
+	.skills__text--first,
+	.skills__text--second,
 	.skills__text--header{
 		font-size: 2.5rem;
 	}
@@ -153,7 +153,7 @@
 	.progress-name{
 		font-size: 1.7rem;
 	}
-	.main__more__content{
+	.main__more--content{
 		display: flex;
 		flex-wrap: wrap;
 		align-content: flex-start;
@@ -179,7 +179,7 @@
 	.card__text--two,.card__text--one,.card__text--three,.card__text--four{
 		font-size: 1.8rem;
 	}
-	.prefooter__content{
+	.main__prefooter--content{
 		max-width: 100%;
 	}
 	.prefooter__contacts--text{
@@ -211,7 +211,7 @@
 	.header__navigation{
 		width:100%; 
 	}
-	.items{
+	.menu__item{
 		font-size: 1.3rem;
 	}
 	.header__welcome-message{
@@ -228,7 +228,7 @@
 		font-size: 2.5rem;
 		margin-top: 0px;
 	}
-	.main__skills__content{
+	.main__skills--content{
 		display: flex;
 		flex-wrap: wrap;
 		align-content: flex-start;
@@ -236,8 +236,8 @@
 	.skills__text{
 		width: 100%;
 	}
-	.skills__text--brown,
-	.skills__text--gray,
+	.skills__text--first,
+	.skills__text--second,
 	.skills__text--header{
 		font-size: 2.5rem;
 	}
@@ -254,7 +254,7 @@
 	.progress-name{
 		font-size: 1.7rem;
 	}
-	.main__more__content{
+	.main__more--content{
 		display: flex;
 		flex-wrap: wrap;
 		align-content: flex-start;
@@ -286,7 +286,7 @@
 	.education__inform,.experiences__inform{
 		height: 750px;
 	}
-	.prefooter__content{
+	.main__prefooter--content{
 		max-width: 100%;
 	}
 	.prefooter__picture{
@@ -321,7 +321,7 @@
 	.header__navigation{
 		width:100%; 
 	}
-	.items{
+	.menu__item{
 		font-size: 1.3rem;
 	}
 	.header__welcome-message{
@@ -338,7 +338,7 @@
 		font-size: 2.5rem;
 		margin-top: 0px;
 	}
-	.main__skills__content{
+	.main__skills--content{
 		display: flex;
 		flex-wrap: wrap;
 		align-content: flex-start;
@@ -346,8 +346,8 @@
 	.skills__text{
 		width: 100%;
 	}
-	.skills__text--brown,
-	.skills__text--gray,
+	.skills__text--first,
+	.skills__text--second,
 	.skills__text--header{
 		font-size: 2.5rem;
 	}
@@ -364,7 +364,7 @@
 	.progress-name{
 		font-size: 1.7rem;
 	}
-	.main__more__content{
+	.main__more--content{
 		display: flex;
 		flex-wrap: wrap;
 		align-content: flex-start;
@@ -396,7 +396,7 @@
 	.education__inform,.experiences__inform{
 		height: 750px;
 	}
-	.prefooter__content{
+	.main__prefooter--content{
 		max-width: 100%;
 	}
 	.prefooter__textarea--message{	
@@ -446,7 +446,7 @@
 	.header__navigation{
 		width:100%; 
 	}
-	.items{
+	.menu__item{
 		font-size: 1.1rem;
 		margin-right:1px;
 		padding: 0;
@@ -476,7 +476,7 @@
 		font-size: 2.5rem;
 		margin-top: 0px;
 	}
-	.main__skills__content{
+	.main__skills--content{
 		display: flex;
 		flex-wrap: wrap;
 		align-content: flex-start;
@@ -484,8 +484,8 @@
 	.skills__text{
 		width: 100%;
 	}
-	.skills__text--brown,
-	.skills__text--gray,
+	.skills__text--first,
+	.skills__text--second,
 	.skills__text--header{
 		font-size: 1.9rem;
 	}
@@ -502,7 +502,7 @@
 	.progress-name{
 		font-size: 1.7rem;
 	}
-	.main__more__content{
+	.main__more--content{
 		display: flex;
 		flex-wrap: wrap;
 		align-content: flex-start;
@@ -540,7 +540,7 @@
 	.experiences__inform{
 		height: 750px;
 	}
-	.prefooter__content{
+	.main__prefooter--content{
 		display: flex;
 	}
 	.prefooter__sayhello{
@@ -621,7 +621,7 @@
 	.header__navigation{
 		width:100%; 
 	}
-	.items{
+	.menu__item{
 		font-size: 1.1rem;
 		margin-right:2px;
 		padding: 0;
@@ -651,7 +651,7 @@
 		font-size: 2.5rem;
 		margin-top: 0px;
 	}
-	.main__skills__content{
+	.main__skills--content{
 		display: flex;
 		flex-wrap: wrap;
 		align-content: flex-start;
@@ -659,8 +659,8 @@
 	.skills__text{
 		width: 100%;
 	}
-	.skills__text--brown,
-	.skills__text--gray,
+	.skills__text--first,
+	.skills__text--second,
 	.skills__text--header{
 		font-size: 1.9rem;
 	}
@@ -677,7 +677,7 @@
 	.progress-name{
 		font-size: 1.7rem;
 	}
-	.main__more__content{
+	.main__more--content{
 		display: flex;
 		flex-wrap: wrap;
 		align-content: flex-start;
@@ -715,7 +715,7 @@
 	.experiences__inform{
 		height: 750px;
 	}
-	.prefooter__content{
+	.main__prefooter--content{
 		display: flex;
 	}
 	.prefooter__sayhello{
@@ -806,7 +806,7 @@
 	.header__navigation{
 		width:100%; 
 	}
-	.items{
+	.menu__item{
 		font-size: 1.1rem;
 		margin-right:2px;
 		padding: 0;
@@ -838,7 +838,7 @@
 		font-size: 1.5rem;
 		margin-top: 0px;
 	}
-	.main__skills__content{
+	.main__skills--content{
 		display: flex;
 		flex-wrap: wrap;
 		align-content: flex-start;
@@ -846,8 +846,8 @@
 	.skills__text{
 		width: 100%;
 	}
-	.skills__text--brown,
-	.skills__text--gray,
+	.skills__text--first,
+	.skills__text--second,
 	.skills__text--header{
 		font-size: 1.9rem;
 	}
@@ -864,7 +864,7 @@
 	.progress-name{
 		font-size: 1.7rem;
 	}
-	.main__more__content{
+	.main__more--content{
 		display: flex;
 		flex-wrap: wrap;
 		align-content: flex-start;
@@ -904,7 +904,7 @@
 		margin-bottom: 0;
 		padding: 0;
 	}
-	.prefooter__content{
+	.main__prefooter--content{
 		display: flex;
 	}
 	.prefooter__sayhello{
