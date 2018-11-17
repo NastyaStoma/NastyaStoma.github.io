@@ -314,6 +314,9 @@
 	.prefooter__links{
 		padding-left: 20px;
 	}
+	.prefooter__textarea--message{
+		height: 8rem;
+	}
 	.footer__text{
 		margin-left: 20px;
 		text-align: center;
@@ -413,10 +416,10 @@
 		font-size: 1.2rem;
 	}
 	.education__picture,.experiences__picture{
-		height: 720px;
+		height: 700px;
 	}
 	.education__inform,.experiences__inform{
-		height: 720px;
+		height: 700px;
 	}
 	.main__prefooter--content{
 		max-width: 100%;
@@ -433,10 +436,10 @@
 		margin: -0px;
 	}
 	.prefooter__headline{
-		font-size: 2.5rem;
+		font-size: 2rem;
 	}
 	.prefooter__textarea--message{
-		height: 9rem;
+		height: 3.5rem;
 	}
 	.footer__text{
 		margin-left: 20px;
@@ -908,8 +911,15 @@
 		border-right: none;
 		border-left:  none;
 		width: 97%;
-		margin-bottom: 10px;	
+		margin-bottom: 10px;
 		height: 130px;
+	}
+	.prefooter__headline{
+		font-size: 2.5rem;
+		margin-top: 30px;
+	}
+	.prefooter__paragr{
+		font-size: 1.5rem;
 	}
 	.prefooter__picture{
 		display: none;
