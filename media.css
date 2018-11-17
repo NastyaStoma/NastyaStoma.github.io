@@ -215,7 +215,7 @@
 		margin-left: 20px;
 	}
 }
-@media (max-width: 768px){
+@media (min-width: 768px){
 	body{box-sizing: border-box;}
 	.header__content{
 		display: flex;
@@ -307,6 +307,9 @@
 	}
 	.prefooter__contacts--text{
 		padding-left: 20px;
+	}
+	.prefooter__sayhello{
+		height: 800px;
 	}
 	.prefooter__links{
 		padding-left: 20px;
@@ -418,8 +421,8 @@
 	.main__prefooter--content{
 		max-width: 100%;
 	}
-	.prefooter__picture{
-		
+	.prefooter__sayhello{
+		height: 760px;
 	}
 	.prefooter__contacts--text{
 		padding-left: 5px;
@@ -683,7 +686,7 @@
 	}
 	.prefooter__sayhello{
 		width: 50%;
-		height: 660px;
+		height: 700px;
 		background-color: rgb(210, 105, 30);
 		padding-left: 5px;
 		padding-right: 5px;
@@ -729,6 +732,7 @@
 	}
 	.prefooter__links{
 		padding-left: 20px;
+		font-size: 1.2rem;
 	}
 	.footer__content{
 		height: 200px;
@@ -1035,11 +1039,11 @@
 		font-size: 1.8rem;
 	}
 	.education__picture,.experiences__picture{
-		height: 760px;
+		height: 860px;
 		max-width: 40%;
 	}
 	.education__inform,.experiences__inform{
-		height: 760px;
+		height: 860px;
 		font-size: 1.3rem;
 		width: 60%;
 	}
@@ -1056,7 +1060,7 @@
 	}
 	.prefooter__sayhello{
 		width: 50%;
-		height: 660px;
+		height: 710px;
 		background-color: rgb(210, 105, 30);
 		padding-left: 5px;
 		padding-right: 5px;
@@ -1074,7 +1078,7 @@
 		border-right: none;
 		border-left:  none;
 		width: 99%;
-		margin-bottom: 10px;	
+		margin-bottom: 10px;
 		padding-bottom: 10px;
 	}
 	.prefooter__textarea--message{
@@ -1084,7 +1088,7 @@
 		border-right: none;
 		border-left:  none;
 		width: 97%;
-		margin-bottom: 10px;	
+		margin-bottom: 10px;
 		height: 50px;
 	}
 	.prefooter__picture{
@@ -1098,7 +1102,7 @@
 	}
 	.prefooter__links{
 		padding: 0px;
-		font-size: 1.3rem;
+		font-size: 1.5rem;
 		margin: -10px;
 		
 	}
@@ -1115,9 +1119,11 @@
 	.footer__text{
 		margin-left: 20px;
 		text-align: center;
+		font-size: 1.5rem;
 	}
 	.footer__links{
 		text-align: center;
 		margin-left: 20px;
+		font-size: 1.5rem;
 	}
 }
