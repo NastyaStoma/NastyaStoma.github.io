@@ -416,10 +416,10 @@
 		font-size: 1.2rem;
 	}
 	.education__picture,.experiences__picture{
-		height: 700px;
+		height: 670px;
 	}
 	.education__inform,.experiences__inform{
-		height: 700px;
+		height: 670px;
 	}
 	.main__prefooter--content{
 		max-width: 100%;
@@ -883,7 +883,7 @@
 	}
 	.prefooter__sayhello{
 		width: 50%;
-		height: 660px;
+		height: 610px;
 		background-color: rgb(210, 105, 30);
 		padding-left: 5px;
 		padding-right: 5px;
@@ -1088,7 +1088,7 @@
 	}
 	.prefooter__sayhello{
 		width: 50%;
-		height: 710px;
+		height: 670px;
 		background-color: rgb(210, 105, 30);
 		padding-left: 5px;
 		padding-right: 5px;
