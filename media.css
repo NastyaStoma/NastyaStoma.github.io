@@ -422,7 +422,7 @@
 		max-width: 100%;
 	}
 	.prefooter__sayhello{
-		height: 760px;
+		height: 830px;
 	}
 	.prefooter__contacts--text{
 		padding-left: 5px;
@@ -550,9 +550,12 @@
 	.prefooter__contacts--text{
 		padding-left: 0px;
 	}
+	.prefooter__contacts--paragr{
+		font-size: 1.2rem;
+	}
 	.prefooter__links{
 		padding: 0px;
-		font-size: 1.1rem;
+		font-size: 1.3rem;
 		margin: 0px;
 		overflow: hidden;
 	}
@@ -719,6 +722,9 @@
 	}
 	.prefooter__picture{
 		display: none;
+	}
+	.prefooter__sayhello{
+		height: 800px;
 	}
 	.prefooter__contacts{
 		width: 100%;
@@ -1039,11 +1045,11 @@
 		font-size: 1.8rem;
 	}
 	.education__picture,.experiences__picture{
-		height: 860px;
+		height: 870px;
 		max-width: 40%;
 	}
 	.education__inform,.experiences__inform{
-		height: 860px;
+		height: 870px;
 		font-size: 1.3rem;
 		width: 60%;
 	}
@@ -1057,6 +1063,12 @@
 	}
 	.main__prefooter--content{
 		display: flex;
+	}
+	.prefooter__headline{
+	font-size: 2rem;
+	}
+	.prefooter__paragr{
+		font-size: 1.1rem;
 	}
 	.prefooter__sayhello{
 		width: 50%;
